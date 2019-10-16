@@ -6,7 +6,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var cadroImagen: UIImageView!
     @IBOutlet weak var numeroImagen: UILabel!
-    var imagenes: [Int:UIImage] = [1:#imageLiteral(resourceName: "mario"),2:#imageLiteral(resourceName: "bowser"),3:#imageLiteral(resourceName: "greenMario"),4:#imageLiteral(resourceName: "bitch"),5:#imageLiteral(resourceName: "kingboo"),6:#imageLiteral(resourceName: "yoshi"),7:#imageLiteral(resourceName: "toad"),8:#imageLiteral(resourceName: "toadette"),9:#imageLiteral(resourceName: "Pikachu")]
+    
+    @IBOutlet weak var jugar: UIButton!
+    
+    var imagenes: [Int:UIImage] = [0:#imageLiteral(resourceName: "mario"),1:#imageLiteral(resourceName: "bowser"),2:#imageLiteral(resourceName: "greenMario"),3:#imageLiteral(resourceName: "bitch"),4:#imageLiteral(resourceName: "kingboo"),5:#imageLiteral(resourceName: "yoshi"),6:#imageLiteral(resourceName: "toad"),7:#imageLiteral(resourceName: "toadette"),8:#imageLiteral(resourceName: "pikachu-1")]
     var posicionesAleatorias = [Int]()
     
     override func viewDidLoad() {
@@ -34,7 +37,12 @@ class ViewController: UIViewController {
                 self.numeroImagen.text = String(i+1)
             }
             i+=1
+            if i == self.imagenes.count {
+                self.jugar.isHidden = false
+            }
         })
+        
+        
         
        
         
