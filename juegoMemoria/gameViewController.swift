@@ -41,8 +41,6 @@ class gameViewController: UIViewController, UICollectionViewDataSource, UICollec
         
     }
     
-     //no entra por que no hay un click despues de clicar la ultima posicion, con lo que habria que hacer un metodo que se llame todo el rato comprobando que posicionesAleatorias.count sea = a 0 y mostrar mensajes finales
-    
     func isEndgame (){
         if posicionesAleatorias.count == 0 {
             mensajeFinal.isHidden = false
