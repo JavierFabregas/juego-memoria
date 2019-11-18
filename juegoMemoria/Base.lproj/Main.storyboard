@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dOE-E0-Fk9">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="SdB-as-Nmq" customClass="gameViewController" customModule="juegoMemoria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T5g-d4-fKc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iz5-IF-rvA">
-                                <rect key="frame" x="0.0" y="40" width="320" height="458"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="429.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona las imagenes que has visto" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VY-Zg-oY4">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="57.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1sN-sY-I62">
-                                        <rect key="frame" x="0.0" y="57.5" width="320" height="345.5"/>
+                                        <rect key="frame" x="0.0" y="29" width="414" height="345.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="70L-ZI-F31">
                                             <size key="itemSize" width="111" height="116"/>
@@ -57,7 +57,7 @@
                                         </cells>
                                     </collectionView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-nb-AnJ">
-                                        <rect key="frame" x="0.0" y="403" width="320" height="55"/>
+                                        <rect key="frame" x="0.0" y="374.5" width="414" height="55"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fhU-7n-POE">
-                                <rect key="frame" x="0.0" y="568" width="320" height="0.0"/>
+                                <rect key="frame" x="0.0" y="563.5" width="414" height="298.5"/>
                                 <subviews>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MUY BIEN O MUY MAL / HIDDEN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di5-oc-WVV">
                                         <rect key="frame" x="0.0" y="0.0" width="253.5" height="0.0"/>
@@ -117,31 +117,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="juegoMemoria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Kik-FG-ZUL">
-                                <rect key="frame" x="0.0" y="20" width="320" height="448"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memoriza las imagenes en orden" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6e-GT-t7S">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="68.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFu-Ge-PmY">
-                                        <rect key="frame" x="0.0" y="68.5" width="320" height="48.5"/>
+                                        <rect key="frame" x="0.0" y="35" width="414" height="49"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EE3-hz-jRW">
-                                        <rect key="frame" x="0.0" y="117" width="320" height="331"/>
+                                        <rect key="frame" x="0.0" y="84" width="414" height="634"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFX-RC-v90">
-                                <rect key="frame" x="0.0" y="468" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Lo tengo!"/>
                                 <connections>
@@ -194,64 +194,73 @@
             </objects>
             <point key="canvasLocation" x="-1008.6956521739131" y="-156.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Start Game-->
         <scene sceneID="HMf-jb-zvu">
             <objects>
-                <viewController id="dOE-E0-Fk9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hq6-V6-i7B">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <viewController id="dOE-E0-Fk9" customClass="startGame" customModule="juegoMemoria" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hq6-V6-i7B" customClass="UIActionSheet">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="juego de memoria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLp-Cx-1RO">
-                                <rect key="frame" x="0.0" y="100" width="320" height="47"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debes recordarlas todas en orden" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvv-nO-Qdt">
-                                <rect key="frame" x="0.0" y="338.5" width="320" height="57.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bF-Qu-kdc">
-                                <rect key="frame" x="0.0" y="396" width="320" height="172"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="JUGAR"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Aoq-oJ-JTX"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Van a aparecer 9 imagenes " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBz-z5-7i5">
-                                <rect key="frame" x="0.0" y="227" width="320" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jjj-2d-Qcd">
+                                <rect key="frame" x="10" y="54" width="394" height="798"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="juego de memoria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLp-Cx-1RO">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Van a aparecer 9 imagenes " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBz-z5-7i5">
+                                        <rect key="frame" x="0.0" y="133" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debes recordarlas todas en orden" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvv-nO-Qdt">
+                                        <rect key="frame" x="0.0" y="266" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bF-Qu-kdc">
+                                        <rect key="frame" x="0.0" y="399" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="FÁCIL"/>
+                                        <connections>
+                                            <action selector="difficultyEasy:" destination="dOE-E0-Fk9" eventType="touchUpInside" id="El3-S3-t5S"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="x23-qk-TLo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSd-lJ-2nX">
+                                        <rect key="frame" x="0.0" y="532" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="MEDIO"/>
+                                        <connections>
+                                            <action selector="difficultyEasy:" destination="dOE-E0-Fk9" eventType="touchUpInside" id="Oj7-gH-nFK"/>
+                                            <action selector="difficultyMedium:" destination="dOE-E0-Fk9" eventType="touchUpInside" id="5KY-gh-DJ8"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="Y8b-Yb-5ka"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5W-7s-Exj">
+                                        <rect key="frame" x="0.0" y="665" width="394" height="133"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="DIFICIL"/>
+                                        <connections>
+                                            <action selector="difficultyEasy:" destination="dOE-E0-Fk9" eventType="touchUpInside" id="2BJ-cR-3SD"/>
+                                            <action selector="difficultyHard:" destination="dOE-E0-Fk9" eventType="touchUpInside" id="8QX-VI-7pO"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="GKH-Xm-ArG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="tLp-Cx-1RO" firstAttribute="trailing" secondItem="ghE-51-mS5" secondAttribute="trailing" id="1oS-QP-PrY"/>
-                            <constraint firstItem="qvv-nO-Qdt" firstAttribute="leading" secondItem="hq6-V6-i7B" secondAttribute="leading" id="68W-dv-0Zy"/>
-                            <constraint firstItem="5bF-Qu-kdc" firstAttribute="top" secondItem="qvv-nO-Qdt" secondAttribute="bottom" id="CH0-SO-sMq">
-                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
-                            </constraint>
-                            <constraint firstItem="tLp-Cx-1RO" firstAttribute="top" secondItem="ghE-51-mS5" secondAttribute="top" constant="80" id="Dck-4k-mnq">
-                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
-                            </constraint>
-                            <constraint firstItem="hBz-z5-7i5" firstAttribute="leading" secondItem="hq6-V6-i7B" secondAttribute="leading" id="IGT-Cu-bib"/>
-                            <constraint firstItem="5bF-Qu-kdc" firstAttribute="trailing" secondItem="ghE-51-mS5" secondAttribute="trailing" id="d7m-vR-VFK"/>
-                            <constraint firstItem="ghE-51-mS5" firstAttribute="trailing" secondItem="hBz-z5-7i5" secondAttribute="trailing" id="nwB-zN-gJ2"/>
-                            <constraint firstItem="qvv-nO-Qdt" firstAttribute="top" secondItem="hBz-z5-7i5" secondAttribute="bottom" constant="80" id="pC2-MD-6pf">
-                                <variation key="heightClass=compact-widthClass=regular" constant="40"/>
-                            </constraint>
-                            <constraint firstItem="hBz-z5-7i5" firstAttribute="top" secondItem="tLp-Cx-1RO" secondAttribute="bottom" constant="80" id="pKH-If-Kwq">
-                                <variation key="heightClass=compact-widthClass=regular" constant="40"/>
-                            </constraint>
-                            <constraint firstItem="5bF-Qu-kdc" firstAttribute="leading" secondItem="ghE-51-mS5" secondAttribute="leading" id="pow-22-Qcf"/>
-                            <constraint firstItem="ghE-51-mS5" firstAttribute="trailing" secondItem="qvv-nO-Qdt" secondAttribute="trailing" id="uBn-no-IJ7"/>
-                            <constraint firstItem="tLp-Cx-1RO" firstAttribute="leading" secondItem="ghE-51-mS5" secondAttribute="leading" id="wMy-h5-Wyp"/>
-                            <constraint firstItem="ghE-51-mS5" firstAttribute="bottom" secondItem="5bF-Qu-kdc" secondAttribute="bottom" id="zQt-0X-LI0"/>
+                            <constraint firstItem="ghE-51-mS5" firstAttribute="trailing" secondItem="jjj-2d-Qcd" secondAttribute="trailing" constant="10" id="Ajr-as-hrO"/>
+                            <constraint firstItem="ghE-51-mS5" firstAttribute="bottom" secondItem="jjj-2d-Qcd" secondAttribute="bottom" constant="10" id="WQt-4J-VG3"/>
+                            <constraint firstItem="jjj-2d-Qcd" firstAttribute="leading" secondItem="ghE-51-mS5" secondAttribute="leading" constant="10" id="X96-Sf-ppT"/>
+                            <constraint firstItem="jjj-2d-Qcd" firstAttribute="top" secondItem="ghE-51-mS5" secondAttribute="top" constant="10" id="s1g-lG-kJc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ghE-51-mS5"/>
                     </view>
@@ -264,4 +273,7 @@
     <resources>
         <image name="Pikachu" width="445" height="445"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="x23-qk-TLo"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -10,7 +10,6 @@ class gameViewController: UIViewController, UICollectionViewDataSource, UICollec
         @IBOutlet weak var mensajeFinal: UILabel!
         @IBOutlet weak var volverAJugar: UIButton!
     
-    
     // definir el numero de celdas que va a tener el collection view
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imagenes.count
@@ -30,6 +29,7 @@ class gameViewController: UIViewController, UICollectionViewDataSource, UICollec
         if posicionesAleatorias.count != 0{
             if posicionesAleatorias[0] == indexPath.row {
                 
+                //cambiar opacidad de la celda con una animacion (fade out) y ocultarla al final para que no se pueda volver a clicar en ella
                 celda.ImageInCell.alpha = 1;
                 UIView.animate(withDuration: 0.5, animations: {
                     celda.ImageInCell.alpha = 0;
@@ -41,6 +41,7 @@ class gameViewController: UIViewController, UICollectionViewDataSource, UICollec
                
                 print("posiciones aleatorias -> " + String(posicionesAleatorias.count))
             }else{
+                //
                 intentos+=1
                 texto.text = String(intentos)
                 print("intentos -> " + String(intentos))
@@ -64,6 +65,7 @@ class gameViewController: UIViewController, UICollectionViewDataSource, UICollec
         
     }
     
+    //(DEBUG) Muestra el array con las posiciones aleatorias generadas anteriormente declarado de forma global
     func mostrar_aleatorios() {
         var tex = ""
         for i in 0 ... posicionesAleatorias.count - 1 {
